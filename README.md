@@ -29,17 +29,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+DB Design 
+![alt text](<misc/Screenshot 2024-03-03 215156.png>)
+User <-> Order   //One to Many
+Order <-> Product  //Many to Many
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+Note: In above daigram user mapped through Intermideate table. For for info read Models folder where entities are present
 
 
