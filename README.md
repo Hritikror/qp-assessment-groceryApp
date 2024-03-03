@@ -31,8 +31,8 @@ $ npm run start:prod
 
 DB Design 
 ![alt text](<misc/Screenshot 2024-03-03 215156.png>)
-User <-> Order   //One to Many
-Order <-> Product  //Many to Many
+* User <-> Order   //One to Many
+* Order <-> Product  //Many to Many
 
 Note: In above daigram user mapped through Intermideate table. For for info read Models folder where entities are present
 
