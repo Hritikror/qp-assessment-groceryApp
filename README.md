@@ -8,7 +8,7 @@
 ## Description
 
 * Setup DB configuration in .env file 
-* Use Postman to test api. More details found in documentation.txt file
+* Use Postman to test api. More details found in documentation.md file
 
 ## Installation
 
