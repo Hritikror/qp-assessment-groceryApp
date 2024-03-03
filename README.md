@@ -37,3 +37,7 @@ DB Design
 Note: In above daigram user mapped through Intermideate table. For for info read Models folder where entities are present
 
 
+Low-Level Design
+![alt text](<misc/Screenshot 2024-03-03 222250.png>)
+* Two middleware are in series, First is to check token is present in headers or not, Second one is check isAdmin with the help of recieved token
+* Auth Guard is implemented with passport jwt strategy which applied to specific controller routes to validate the recieved token
