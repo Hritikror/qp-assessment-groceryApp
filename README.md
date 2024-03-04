@@ -10,6 +10,11 @@
 * Setup DB configuration in .env file 
 * Use Postman to test api. More details found in documentation.md file
 
+## Run Vai DOCKER directly
+```bash
+$ docker-compose up or docker-compose up -d
+```
+
 ## Installation
 
 ```bash
