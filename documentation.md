@@ -5,6 +5,8 @@ To import the postman api collection follow below steps
 ![alt text](<misc/Screenshot 2024-03-03 205519.png>)
 got email and password(use original)
 Note: To make this user admin commit isAdmin = true in DB manually
+Run command on terminal -> docker exec -it postgres-container psql -U postgres -d grocery //sample
+-> UPDATE "user" SET "isAdmin" = true WHERE email = 'hritik@gmail.com';//sample
 ![alt text](<misc/Screenshot 2024-03-03 210604.png>)
 
 
